@@ -1,0 +1,451 @@
+
+body {
+  margin: 0 auto;
+  padding: 0;
+  background: #f8f8f6;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 12px;
+  color: #666666;
+  line-height: normal;
+  min-width: 940px;
+}
+a {
+  color: #16989f;
+  text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+  color: #084d87;
+}
+h1 {
+  font-size: 42px;
+  line-height: 40px;
+}
+h2 {
+  color: #02294c;
+  font-size: 30px;
+}
+p {
+  margin: 0 0 12px 0;
+}
+
+a img{
+  border: 0;
+}
+.row {
+  margin: 0 auto;
+  clear: both;
+}
+.container {
+  width: 900px;
+  height: 100%;
+  margin: 0 auto;
+}
+.nav-links .link {
+  display: inline-block;
+  margin-right: 45px;
+  text-transform: uppercase;
+  font-size: 16px;
+}
+.social {
+  display: inline-block;
+  vertical-align: middle;
+}
+.social a {
+  margin: 0 8px 0 0;
+}
+.caption {
+  color: #16989f;
+  margin-top: 5px;
+  font-size: 12px;
+}
+
+.zoom-caption {
+  color: #16989f;
+  margin-top: 5px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.headline{
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.more{
+  text-transform: uppercase;
+}
+.divider-horizontal {
+  display: inline-block;
+  border-top: 1px solid #b6b6a8;
+  height: 1px;
+  width: 100%;
+  margin: 10px 0;
+}
+.divider-vertical {
+  display: inline-block;
+  border-right: 1px solid #b6b6a8;
+  height: 100%;
+  width: 1px;
+  margin: 0 10px;
+  vertical-align: middle;
+}
+.ico-dropdown {
+  display: inline-block;
+  background: url(../_images/btn-dropdown.png) no-repeat;
+  width: 9px;
+  height: 6px;
+  vertical-align: middle;
+}
+.header {
+  height: 141px;
+  background: #fff;
+}
+.header .logo {
+  float: right;
+  background: url(bg-logo.png) no-repeat;
+  width: 248px;
+  height: 141px;
+  text-align: center;
+}
+.header .logo img {
+  margin-top: 30px;
+}
+.header .header-nav {
+  float: left;
+  margin-top: 10px;
+  margin-left: 48px;
+  font-weight: bold;
+}
+.header .header-nav .languages {
+  display: inline-block;
+  color: #666666;
+  height: 22px;
+  vertical-align: top;
+  margin-left: 25px;
+}
+
+ .header .header-nav .languages .goog-te-gadget-icon{
+  display: none;
+ }
+ .goog-te-gadget-simple{
+  border-left: none !important;
+  border-right: none !important;
+  border-top: none !important;
+  border-bottom: none !important;
+ }
+
+ .header .header-nav .languages .goog-te-menu-value{
+  font-size: 14px;
+ }
+.header .header-nav .languages a {
+  color: #666666;
+}
+.header .header-nav .languages > ul {
+  display: none;
+  margin: 0;
+  padding: 0;
+  background: #fff;
+  list-style: none;
+  position: relative;
+  z-index: 1;
+  border: 1px solid #b6b6a8;
+}
+.header .header-nav .languages > ul > li {
+  padding: 5px 10px;
+}
+.header .header-nav .languages:hover > ul {
+  display: block;
+}
+.header .header-nav .nav-links {
+  margin-top: 42px;
+}
+.main {
+  background: url(bg-main-repeated.jpg) repeat-x;
+  min-height: 562px;
+}
+.main .top {
+  background: url(bg-main-top-carousel.png) no-repeat 0 105px;
+  width: 940px;
+  height: 562px;
+}
+.main .top .row {
+  margin: 0 55px 0 70px;
+}
+.main .top .row.featured {
+  padding-top: 40px;
+  min-height: 375px;
+}
+.main .top .row.featured .content-text a {
+  text-decoration: underline;
+  color: #666666;
+}
+.main .top .row.featured .col-left {
+  display: inline-block;
+  width: 485px;
+}
+.video-holder {
+  width: 640px;
+  margin-left:auto;
+  margin-right:auto;
+  background-color: #b6b6a8;
+  border: 1px solid #E2E2DC;
+  padding: 4px;
+}
+.main .top .row.featured .col-right {
+  display: inline-block;
+  width: 490px;
+  margin-left: 35px;
+  vertical-align: top;
+}
+.main .top .row.featured #per-slide-pager {
+  float: right;
+  margin: 40px 0 0;
+}
+.main .top .row.featured #per-slide-pager a {
+  width: 22px;
+  height: 21px;
+  display: inline-block;
+  margin-right: 6px;
+}
+.main .top .row.featured #per-slide-pager a div {
+  width: 100%;
+  height: 100%;
+}
+.main .top .row.featured #per-slide-pager a div.color-1 {
+  background: #16989f;
+}
+.main .top .row.featured #per-slide-pager a div.color-2 {
+  background: #0a605f;
+}
+.main .top .row.featured #per-slide-pager a div.color-3 {
+  background: #084d87;
+}
+.main .top .row.featured #per-slide-pager a div.color-4 {
+  background: #02294c;
+}
+.main .top .row.featured #per-slide-pager a.cycle-pager-active {
+  height: 26px;
+}
+.main .top .row.jobs {
+  margin-top: 20px;
+  height: 100px;
+}
+.main .top .row.jobs .join-our-team {
+  display: inline-block;
+  width: 465px;
+  font-size: 16px;
+  color: #02294c;
+  vertical-align: top;
+}
+.main .top .row.jobs .call-outs {
+  display: inline-block;
+  margin-left: 40px;
+}
+.main .top .row.jobs .call-outs img {
+  vertical-align: middle;
+  margin-right: 15px;
+}
+.main .top .row.jobs .call-outs .work-at-home {
+  display: inline-block;
+  color: #02294c;
+  font-size: 18px;
+  font-weight: bold;
+  vertical-align: middle;
+  width: 80px;
+}
+#map {
+  height: 560px; width:100%; position: relative;
+}
+.main .grid-promos .box-container {
+  width: 1080px;
+  height: 480px;
+  margin: 0 auto;
+}
+.main .grid-promos .box-container .promo-box {
+  float: left;
+  width: 216px;
+  height: 240px;
+}
+.footer {
+  margin-top: 154px;
+  text-align: center;
+}
+.footer .social {
+  margin-top: 30px;
+}
+.footer .copyright {
+  margin: 25px 0;
+  font-size: 12px;
+  color: #b6b6a8;
+}
+
+
+/********* Interior pages *************/
+
+.interior {
+  line-height: 1.4em;
+}
+
+.interior ul {
+  padding-left: 20px;
+}
+
+  .interior ul li {
+    margin: 0 0 15px;
+  }
+
+.interior .header {
+  position: relative;
+  z-index: 2;
+}
+
+.interior .main {
+  background: #fff;
+  position: relative;
+  z-index: 1;
+  top: -80px;
+}
+
+.interior .main .top {
+  background-position: 2px bottom;
+  padding-bottom: 90px;
+  position: relative;
+  top: 90px;
+  overflow: hidden;
+  height: auto;
+}
+
+.main-col {
+  margin: 0 0 0 70px;
+  width: 680px;
+  float: left;
+}
+
+.col-header {
+  border-bottom: 1px solid #d9d9d9;
+  margin-bottom: 15px;
+}
+
+.interior h1 {
+  margin: 10px 0 7px;
+  font-size: 30px;
+}
+
+.main-col h2 {
+  color: #16989f;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.main-col h3 {
+  font-size: 14px;
+  color: #333e47;
+  font-weight: bold;
+}
+
+
+  .section-title {
+    font-size: 14px;
+    color: #8a8a7a;
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+
+.col-content {
+  width: 625px;
+}
+
+.sidebar {
+  margin: 40px 19px 0 0;
+  width: 220px;
+  float: right;
+  padding: 50px 15px 15px;
+  background: url(../_images/bg-sidebar.png) repeat-x top;
+  font-size: 12px;
+  line-height: 1.4em;
+  color: #58595b;
+  min-height: 450px;
+}
+
+.sidebar h2 {
+  color: #0a605f;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.sidebar h3 {
+  font-size: 12px;
+  color: #333e47;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.sidebar .resource {
+  padding: 25px 0 15px;
+  border-bottom: 1px solid #b7b7b5;
+}
+
+.sidebar .resource .download-resource {
+  color: #8a8a7a;
+  font-weight: bold;
+  background: url(../_images/icon-pdf.png) no-repeat left top;
+  height: 54px;
+  display: block;
+  padding: 0 0 10px 64px;
+}
+
+  .sidebar .resource .download-resource .resource-filename {
+    font-weight: normal;
+    display: block;
+  }
+
+.sidebar .resource .download-pdf {
+
+}
+
+
+/* mapbox overrides */
+.leaflet-control-layers, .leaflet-bar{
+    background-color: #0098a0 !important;
+}
+
+.leaflet-control-zoom-in, .leaflet-control-zoom-out, .leaflet-popup-close-button, .leaflet-control-layers-toggle, .leaflet-container.dark .map-tooltip .close, .map-tooltip .close, .mapbox-icon {
+background-image: url("https://api.tiles.mapbox.com/mapbox.js/v1.6.1/images/icons-ffffff.png") !important; 
+    opacity: 1 !important;
+    background-size: 34px 300px !important;
+
+}
+
+.leaflet-bar a, .mapbox-icon, .map-tooltip.closable .close, .leaflet-control-layers-toggle, .leaflet-popup-close-button, .mapbox-button-icon:before{
+    width: 35px !important;
+    height: 35px !important;
+}
+
+.leaflet-left .leaflet-control {
+    margin-left: 25px !important;
+}
+.leaflet-top .leaflet-control {
+    margin-top: 25px !important;
+}
+.leaflet-bar a:hover,
+  .leaflet-bar a:active {
+    background-color:#018b92 !important;
+    cursor:pointer;
+    }
+
+    .leaflet-bar .leaflet-control-zoom-out {
+    background-position: 5px -26px\9 !important;
+}
+
+    .leaflet-bar .leaflet-control-zoom-in {
+    background-position: 5px 0px\9 !important;
+}
+
+
