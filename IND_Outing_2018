@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Convergys</title>
+    <link type="text/css" rel="stylesheet" href="homepage.css" />
+    <meta name="description" content="Taking the lead, together." />
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+</head>
+<body class="home">
+    <!-- Header and Nav -->
+    <div class="row header">
+        <div class="container">
+            <div class="logo">
+                <a href="#"><img src="logo-white.png" alt="Convergys" /></a>
+            </div>
+            <div class="header-nav">
+                <div class="row">
+                    <div class="social">
+                    </div>
+                </div>
+                <div class="row nav-links">
+                          <div class="link">
+                    </div>
+                    <div class="link">
+                    </div>
+                    <div class="link">
+                    </div>
+                    <div class="link">
+                    </div>
+                    <div class="link">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Header and Nav -->
+    <!-- Main Section -->
+    <div class="row main">
+      <div class="container top">
+        <div class="video-holder">
+          <video autoplay controls="controls" width="640" height="360">
+          <source src="https://cvgvideo.blob.core.windows.net/videos/Convergys2018.mp4" type="video/mp4" />
+          	<object id="flowplayer" type="application/x-shockwave-flash" data="http://releases.flowplayer.org/swf/flowplayer-3.2.18.swf" width="640" height="360">
+          		<param name="movie" value="http://releases.flowplayer.org/swf/flowplayer-3.2.18.swf" />
+          		<param name="allowFullScreen" value="true" />
+          		<param name="wmode" value="transparent" />
+              <param name="flashVars" value="config={'clip':{'url':'https://cvgvideo.blob.core.windows.net/videos/Convergys2018.mp4','autoPlay':true,'autoBuffering':true}}" />              
+          		<img alt="Convergys" src="vid-cover-image.jpg" width="640" height="360" title="No video playback capabilities, please use a different browser or computer" />
+          	</object>
+          </video>
+          </div>
+          <center>
+          Video Not Working?<br/>
+          <a href="https://cvgvideo.blob.core.windows.net/videos/Convergys2018.mp44"> Try right clicking this link and choosing "Save Target As.."</a>
+          <br/>to save it locally and play it outside of a browser.
+        </center>
+        </div>
+    </div>
+    <!-- End Main Section -->
+
+
+</body>
+</html>
